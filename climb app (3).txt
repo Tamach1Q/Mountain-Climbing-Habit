@@ -1,0 +1,1437 @@
+﻿<!-- はじまり：理想の自分を選ぶ -->
+<!DOCTYPE html>
+
+
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#aae8bd",
+              "inverse-primary": "#9eddfa",
+              "surface": "#f6fafe",
+              "surface-bright": "#f6fafe",
+              "tertiary-dim": "#804300",
+              "on-primary": "#f2faff",
+              "secondary-dim": "#235e3d",
+              "primary": "#20667f",
+              "on-tertiary": "#fff7f4",
+              "error-dim": "#70030f",
+              "on-tertiary-container": "#562c00",
+              "surface-tint": "#20667f",
+              "surface-container-lowest": "#ffffff",
+              "secondary-container": "#b8f7ca",
+              "error-container": "#f56965",
+              "on-error": "#fff7f6",
+              "on-error-container": "#65000b",
+              "on-primary-fixed": "#003b4d",
+              "on-secondary-container": "#25603e",
+              "on-tertiary-fixed-variant": "#633300",
+              "on-secondary-fixed": "#0e4d2d",
+              "primary-fixed-dim": "#90cfeb",
+              "outline-variant": "#a9b3ba",
+              "error": "#ac3434",
+              "surface-container-highest": "#dae4eb",
+              "secondary": "#306a48",
+              "on-surface-variant": "#576067",
+              "primary-dim": "#0a5a72",
+              "on-secondary-fixed-variant": "#306a48",
+              "on-primary-container": "#005066",
+              "tertiary-container": "#ffa454",
+              "tertiary": "#914d00",
+              "surface-container-high": "#e1e9f0",
+              "on-background": "#2a3439",
+              "on-surface": "#2a3439",
+              "outline": "#727c82",
+              "on-tertiary-fixed": "#361900",
+              "primary-fixed": "#9eddfa",
+              "primary-container": "#9eddfa"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body min-h-screen pb-32">
+<!-- Top Navigation Suppression: Onboarding flow -->
+<header class="fixed top-0 w-full z-50 bg-[#f6fafe]/70 backdrop-blur-xl flex justify-between items-center px-6 h-16 shadow-sm shadow-[#2a3439]/5">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#20667f]" style="font-variation-settings: 'FILL' 1;">terrain</span>
+<span class="text-xl font-bold text-[#20667f] tracking-wide font-headline">山登り習慣</span>
+</div>
+<div class="text-[#20667f] font-bold text-sm bg-primary-container/30 px-4 py-1 rounded-full">
+            Step 1 / 3
+        </div>
+</header>
+<main class="pt-24 px-6 max-w-2xl mx-auto">
+<!-- Hero Section -->
+<section class="mb-12">
+<h1 class="text-3xl font-extrabold tracking-tight text-primary mb-4 leading-tight">
+                あなたの登頂ルートを<br/>デザインしましょう
+            </h1>
+<p class="text-on-surface-variant leading-relaxed">
+                理想の姿を選び、日常の小さな習慣を山の標高に変換します。仲間と共に、一歩ずつ高みへ。
+            </p>
+</section>
+<!-- Role Selection Section -->
+<section class="mb-16">
+<div class="flex items-center gap-2 mb-6">
+<span class="text-xs font-bold tracking-widest text-primary uppercase bg-primary-container px-2 py-0.5 rounded">Identity</span>
+<h2 class="text-xl font-bold">理想の自分を選ぶ</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Card: Explorer -->
+<div class="group relative bg-surface-container-low rounded-lg p-6 transition-all duration-300 hover:bg-surface-container-lowest hover:shadow-lg border-2 border-transparent hover:border-primary/10 cursor-pointer overflow-hidden">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-primary text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">explore</span>
+<h3 class="font-bold text-lg mb-1">探検家</h3>
+<p class="text-xs text-on-surface-variant">新しい世界を切り拓く<br/>勇気ある開拓者</p>
+</div>
+<div class="absolute -right-4 -bottom-4 opacity-5 group-hover:opacity-10 transition-opacity">
+<span class="material-symbols-outlined text-8xl" style="font-variation-settings: 'FILL' 1;">explore</span>
+</div>
+</div>
+<!-- Card: Scholar -->
+<div class="group relative bg-surface-container-lowest rounded-lg p-6 shadow-md border-2 border-primary transition-all duration-300">
+<div class="relative z-10">
+<div class="flex justify-between items-start mb-4">
+<span class="material-symbols-outlined text-primary text-4xl" style="font-variation-settings: 'FILL' 1;">school</span>
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+</div>
+<h3 class="font-bold text-lg mb-1">学者</h3>
+<p class="text-xs text-on-surface-variant">知識を深め、理論を<br/>積み上げる知の巨人</p>
+</div>
+<div class="absolute -right-4 -bottom-4 opacity-10">
+<span class="material-symbols-outlined text-8xl" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+</div>
+<!-- Card: Artist -->
+<div class="group relative bg-surface-container-low rounded-lg p-6 transition-all duration-300 hover:bg-surface-container-lowest hover:shadow-lg border-2 border-transparent hover:border-primary/10 cursor-pointer overflow-hidden">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-primary text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">palette</span>
+<h3 class="font-bold text-lg mb-1">芸術家</h3>
+<p class="text-xs text-on-surface-variant">感性を研ぎ澄まし<br/>美を創造する表現者</p>
+</div>
+<div class="absolute -right-4 -bottom-4 opacity-5 group-hover:opacity-10 transition-opacity">
+<span class="material-symbols-outlined text-8xl" style="font-variation-settings: 'FILL' 1;">palette</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Habit Conversion Section -->
+<section class="mb-16">
+<div class="flex items-center gap-2 mb-6">
+<span class="text-xs font-bold tracking-widest text-primary uppercase bg-primary-container px-2 py-0.5 rounded">Conversion</span>
+<h2 class="text-xl font-bold">習慣を標高へ変換</h2>
+</div>
+<div class="bg-surface-container-low rounded-lg p-8 relative overflow-hidden">
+<!-- AI Conversion Visual -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
+<div class="flex flex-col items-center gap-4 bg-surface-container-lowest p-6 rounded-lg shadow-sm w-full md:w-auto">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container">auto_stories</span>
+</div>
+<div class="text-center">
+<div class="text-sm font-bold text-on-surface-variant">習慣</div>
+<div class="text-lg font-extrabold text-primary">30分読書</div>
+</div>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="flex items-center gap-1 text-primary animate-pulse">
+<span class="material-symbols-outlined text-2xl">magic_button</span>
+<span class="text-xs font-bold tracking-widest">AI変換中</span>
+</div>
+<span class="material-symbols-outlined text-primary rotate-90 md:rotate-0">double_arrow</span>
+</div>
+<div class="flex flex-col items-center gap-4 bg-gradient-to-br from-primary to-primary-dim p-6 rounded-lg shadow-lg w-full md:w-auto">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">landscape</span>
+</div>
+<div class="text-center">
+<div class="text-sm font-bold text-on-primary/70">登頂距離</div>
+<div class="text-xl font-extrabold text-on-primary">100m 登る</div>
+</div>
+</div>
+</div>
+<!-- Background Decoration -->
+<div class="absolute inset-0 pointer-events-none opacity-20">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-container rounded-full blur-3xl -mr-32 -mt-32"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-secondary-container rounded-full blur-3xl -ml-24 -mb-24"></div>
+</div>
+</div>
+<p class="text-center text-xs text-on-surface-variant mt-4 italic">
+                ※AIがあなたの活動量と難易度から最適な獲得標高を算出します
+            </p>
+</section>
+<!-- Profile Detail (Asymmetric Element) -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="relative rounded-lg overflow-hidden h-64 shadow-xl">
+<img alt="山頂の景色" class="w-full h-full object-cover" data-alt="misty mountain peak with a lone hiker silhouette looking at the sunrise, ethereal and calm atmosphere with soft blue tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH4hJDXjMTbJkBwtCWxkdKhVknrxAfP-UYpQJ8AiC-Yfbz4UdHcNg2_yDdfpDn6BIPTHGnuqdR0Db1qlu9_99B71NtGovmDuCugfXs6fw00PV18uuV4K0kL4nrWuZW3yzDuW14QXoMEv0dnV_dIpZOi4pnDNygWQBFK8tCbgEp598-e7wbbYo1Ji55i1hqjiSYhWNBtsMlCR_El1P3m2nLo5B8UT0R4dMEllWBmwb8Z-Z0PE-mx4NFl_mnTezPss80V-NnYP8z3KfW"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent flex items-end p-6">
+<div class="text-white">
+<div class="text-xs font-bold uppercase tracking-wider mb-1 opacity-80">Your Target</div>
+<div class="text-lg font-bold">富士山 (3,776m)</div>
+</div>
+</div>
+</div>
+<div class="space-y-4">
+<h3 class="text-xl font-bold text-primary">最初の目標：麓からの出発</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                    あなたが設定した「読書」の習慣を毎日続けることで、1ヶ月後には富士山の五合目付近まで到達する計算です。仲間たちがあなたの登山開始を待っています。
+                </p>
+<div class="flex gap-4">
+<div class="bg-tertiary-container/20 px-3 py-2 rounded flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-sm" style="font-variation-settings: 'FILL' 1;">energy_savings_leaf</span>
+<span class="text-xs font-bold text-tertiary">消費カロリー 120kcal</span>
+</div>
+<div class="bg-secondary-container/20 px-3 py-2 rounded flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">timer</span>
+<span class="text-xs font-bold text-secondary">想定時間 30分</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Action Area -->
+<div class="fixed bottom-0 left-0 w-full px-6 pb-8 pt-4 bg-surface/80 backdrop-blur-xl z-50">
+<div class="max-w-2xl mx-auto">
+<button class="w-full py-5 bg-gradient-to-r from-primary to-primary-dim text-on-primary rounded-full font-bold text-lg shadow-lg shadow-primary/20 active:scale-[0.98] transition-all flex items-center justify-center gap-3">
+<span class="material-symbols-outlined">group</span>
+                仲間と山登りを始める
+            </button>
+</div>
+</div>
+</body></html>
+
+
+<!-- 記録：今日の一歩を刻む -->
+<!DOCTYPE html>
+
+
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>山登り習慣 - 記録</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#aae8bd",
+              "inverse-primary": "#9eddfa",
+              "surface": "#f6fafe",
+              "surface-bright": "#f6fafe",
+              "tertiary-dim": "#804300",
+              "on-primary": "#f2faff",
+              "secondary-dim": "#235e3d",
+              "primary": "#20667f",
+              "on-tertiary": "#fff7f4",
+              "error-dim": "#70030f",
+              "on-tertiary-container": "#562c00",
+              "surface-tint": "#20667f",
+              "surface-container-lowest": "#ffffff",
+              "secondary-container": "#b8f7ca",
+              "error-container": "#f56965",
+              "on-error": "#fff7f6",
+              "on-error-container": "#65000b",
+              "on-primary-fixed": "#003b4d",
+              "on-secondary-container": "#25603e",
+              "on-tertiary-fixed-variant": "#633300",
+              "on-secondary-fixed": "#0e4d2d",
+              "primary-fixed-dim": "#90cfeb",
+              "outline-variant": "#a9b3ba",
+              "error": "#ac3434",
+              "surface-container-highest": "#dae4eb",
+              "secondary": "#306a48",
+              "on-surface-variant": "#576067",
+              "primary-dim": "#0a5a72",
+              "on-secondary-fixed-variant": "#306a48",
+              "on-primary-container": "#005066",
+              "tertiary-container": "#ffa454",
+              "tertiary": "#914d00",
+              "surface-container-high": "#e1e9f0",
+              "on-background": "#2a3439",
+              "on-secondary": "#e7ffeb",
+              "inverse-surface": "#0a0f12",
+              "surface-dim": "#d0dce4",
+              "tertiary-fixed-dim": "#ef9648",
+              "inverse-on-surface": "#999da1",
+              "secondary-fixed": "#b8f7ca",
+              "on-primary-fixed-variant": "#085a72",
+              "surface-container-low": "#eff4f9",
+              "tertiary-fixed": "#ffa454",
+              "background": "#f6fafe",
+              "surface-variant": "#dae4eb",
+              "surface-container": "#e8eff4",
+              "on-surface": "#2a3439",
+              "outline": "#727c82",
+              "on-tertiary-fixed": "#361900",
+              "primary-fixed": "#9eddfa",
+              "primary-container": "#9eddfa"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-effect {
+            backdrop-filter: blur(24px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body min-h-screen pb-32">
+<!-- Top Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-[#f6fafe]/70 backdrop-blur-xl shadow-sm shadow-[#2a3439]/5 flex justify-between items-center px-6 h-16">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#20667f]" data-icon="terrain">terrain</span>
+<h1 class="text-xl font-bold text-[#20667f] tracking-wide font-headline">山登り習慣</h1>
+</div>
+<div class="bg-primary-container/30 px-4 py-1.5 rounded-full">
+<span class="text-[#20667f] font-bold text-sm tracking-wide">520m | 🍙 3</span>
+</div>
+</header>
+<main class="pt-24 px-6 max-w-2xl mx-auto">
+<!-- Ascent Visualization (The Path) -->
+<section class="relative mb-12 aspect-[4/3] rounded-lg overflow-hidden bg-gradient-to-b from-primary-container/20 to-secondary-container/20 flex flex-col items-center justify-end p-8">
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40" data-alt="stylized illustration of a winding mountain path with pine trees and soft misty clouds in a peaceful morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBRUnBjscffqXO2RVBXhAOQcIXARQHN2exweoojiO-Oi3I7uYu0FG1DcxWrGW40w2zSBwynOx3_sGRQxUcLdIEqSKkYzsO2EqtV75KuNzpKSYxclxA7cXlamvYctsbHSZEAXr97B_c61HkDdyOeOaV9lBhDT8GbH8wNdm-RyeqCw4lwI8Aj7nvo91Wi0qBjVCm50RpX-YYLl2JZusLpTx51BDoJvmKBwIH3B6nRQVEOqI-th7sHG7UDHfUNVIxFzE8ocpVoFFw6oX5"/>
+<!-- Floating Achievement Popups (Simulated State) -->
+<div class="absolute inset-0 pointer-events-none flex flex-col items-center justify-center space-y-4">
+<div class="bg-white/90 backdrop-blur-md px-6 py-3 rounded-full shadow-lg border border-primary/10 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" data-icon="vertical_align_top">vertical_align_top</span>
+<span class="font-bold text-primary">+150m上昇！</span>
+</div>
+<div class="bg-tertiary-container/90 backdrop-blur-md px-6 py-3 rounded-full shadow-lg border border-tertiary/10 flex items-center gap-2 translate-x-12">
+<span class="material-symbols-outlined text-on-tertiary-container" data-icon="bakery_dining">bakery_dining</span>
+<span class="font-bold text-on-tertiary-container">食料1個獲得！</span>
+</div>
+</div>
+<!-- Character Sprite -->
+<div class="relative z-10 flex flex-col items-center">
+<div class="w-20 h-20 bg-primary-fixed-dim rounded-full flex items-center justify-center shadow-xl mb-4 border-4 border-white">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="hiking" style="font-variation-settings: 'FILL' 1;">hiking</span>
+</div>
+<div class="h-32 w-1 bg-primary/20 rounded-full relative">
+<div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-4 h-4 bg-primary rounded-full"></div>
+</div>
+</div>
+</section>
+<!-- Action Selection Section -->
+<section class="space-y-6 mb-12">
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-xl font-bold font-headline tracking-tight text-on-surface">今日やった行動を選択</h2>
+<span class="text-xs font-medium bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full uppercase tracking-widest">Daily Quest</span>
+</div>
+<!-- Bento Grid of Actions -->
+<div class="grid grid-cols-2 gap-4">
+<button class="flex flex-col items-start p-5 bg-surface-container-lowest rounded-lg shadow-sm border border-outline-variant/10 hover:bg-primary-container/10 transition-colors text-left group">
+<div class="w-10 h-10 rounded-full bg-secondary-container/30 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-secondary" data-icon="steps">steps</span>
+</div>
+<span class="font-bold text-on-surface mb-1">8,000歩歩いた</span>
+<span class="text-xs text-on-surface-variant leading-relaxed">体力の基礎を作る大切な一歩です</span>
+</button>
+<button class="flex flex-col items-start p-5 bg-surface-container-lowest rounded-lg shadow-sm border border-outline-variant/10 hover:bg-primary-container/10 transition-colors text-left group">
+<div class="w-10 h-10 rounded-full bg-primary-container/30 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary" data-icon="self_improvement">self_improvement</span>
+</div>
+<span class="font-bold text-on-surface mb-1">ストレッチ</span>
+<span class="text-xs text-on-surface-variant leading-relaxed">体の柔軟性を高め怪我を予防</span>
+</button>
+<button class="flex flex-col items-start p-5 bg-surface-container-lowest rounded-lg shadow-sm border border-outline-variant/10 border-2 border-primary/20 ring-4 ring-primary/5 transition-colors text-left group">
+<div class="w-10 h-10 rounded-full bg-tertiary-container/30 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-tertiary" data-icon="nutrition">nutrition</span>
+</div>
+<span class="font-bold text-on-surface mb-1">バランスの良い食事</span>
+<span class="text-xs text-on-surface-variant leading-relaxed">山のエネルギーを補給しましょう</span>
+<div class="mt-3 bg-primary text-white text-[10px] px-2 py-0.5 rounded-full font-bold">SELECTED</div>
+</button>
+<button class="flex flex-col items-start p-5 bg-surface-container-lowest rounded-lg shadow-sm border border-outline-variant/10 hover:bg-primary-container/10 transition-colors text-left group">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-outline" data-icon="add_circle">add_circle</span>
+</div>
+<span class="font-bold text-on-surface mb-1">その他</span>
+<span class="text-xs text-on-surface-variant leading-relaxed">独自のトレーニングを記録</span>
+</button>
+</div>
+</section>
+<!-- Execution Controls -->
+<div class="flex flex-col gap-4">
+<button class="w-full bg-gradient-to-br from-primary to-primary-container text-white py-5 rounded-full font-bold text-lg shadow-lg active:scale-95 transition-transform duration-200 flex items-center justify-center gap-3">
+<span class="material-symbols-outlined" data-icon="edit_note">edit_note</span>
+                記録して進む
+            </button>
+<button class="w-full bg-surface-container-high text-on-surface-variant py-4 rounded-full font-bold text-sm hover:bg-surface-container-highest transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg" data-icon="home">home</span>
+                ホームに戻る
+            </button>
+</div>
+</main>
+<!-- Bottom Navigation Shell -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-end px-4 pb-6 pt-2 bg-[#f6fafe]/80 backdrop-blur-2xl shadow-[0_-4px_20px_rgba(42,52,57,0.04)] z-50">
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="landscape">landscape</span>
+<span class="text-[10px] font-medium tracking-widest font-headline">みんなの山</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-gradient-to-br from-[#20667f] to-[#9eddfa] text-white rounded-full p-3 w-14 h-14 -mt-4 shadow-lg active:scale-90 duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" data-icon="edit_note">edit_note</span>
+<span class="text-[10px] font-medium tracking-widest font-headline hidden">記録</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="volunteer_activism">volunteer_activism</span>
+<span class="text-[10px] font-medium tracking-widest font-headline">助け合い</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span class="text-[10px] font-medium tracking-widest font-headline">仲間</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[10px] font-medium tracking-widest font-headline">マイページ</span>
+</a>
+</nav>
+</body></html>
+
+
+<!-- 助け合い：仲間を支える -->
+<!DOCTYPE html>
+
+
+<html class="light" lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#aae8bd",
+              "inverse-primary": "#9eddfa",
+              "surface": "#f6fafe",
+              "surface-bright": "#f6fafe",
+              "tertiary-dim": "#804300",
+              "on-primary": "#f2faff",
+              "secondary-dim": "#235e3d",
+              "primary": "#20667f",
+              "on-tertiary": "#fff7f4",
+              "error-dim": "#70030f",
+              "on-tertiary-container": "#562c00",
+              "surface-tint": "#20667f",
+              "surface-container-lowest": "#ffffff",
+              "secondary-container": "#b8f7ca",
+              "error-container": "#f56965",
+              "on-error": "#fff7f6",
+              "on-error-container": "#65000b",
+              "on-primary-fixed": "#003b4d",
+              "on-secondary-container": "#25603e",
+              "on-tertiary-fixed-variant": "#633300",
+              "on-secondary-fixed": "#0e4d2d",
+              "primary-fixed-dim": "#90cfeb",
+              "outline-variant": "#a9b3ba",
+              "error": "#ac3434",
+              "surface-container-highest": "#dae4eb",
+              "secondary": "#306a48",
+              "on-surface-variant": "#576067",
+              "primary-dim": "#0a5a72",
+              "on-secondary-fixed-variant": "#306a48",
+              "on-primary-container": "#005066",
+              "tertiary-container": "#ffa454",
+              "tertiary": "#914d00",
+              "surface-container-high": "#e1e9f0",
+              "on-background": "#2a3439",
+              "on-secondary": "#e7ffeb",
+              "inverse-surface": "#0a0f12",
+              "surface-dim": "#d0dce4",
+              "tertiary-fixed-dim": "#ef9648",
+              "inverse-on-surface": "#999da1",
+              "secondary-fixed": "#b8f7ca",
+              "on-primary-fixed-variant": "#085a72",
+              "surface-container-low": "#eff4f9",
+              "tertiary-fixed": "#ffa454",
+              "background": "#f6fafe",
+              "surface-variant": "#dae4eb",
+              "surface-container": "#e8eff4",
+              "on-surface": "#2a3439",
+              "outline": "#727c82",
+              "on-tertiary-fixed": "#361900",
+              "primary-fixed": "#9eddfa",
+              "primary-container": "#9eddfa"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-panel {
+        backdrop-filter: blur(24px);
+      }
+      input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        background: #20667f;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(32, 102, 127, 0.2);
+        margin-top: -8px;
+      }
+      input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 8px;
+        cursor: pointer;
+        background: #dae4eb;
+        border-radius: 4px;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#f6fafe]/70 backdrop-blur-xl shadow-sm shadow-[#2a3439]/5 flex justify-between items-center px-6 h-16 w-full">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#20667f]" data-icon="terrain">terrain</span>
+<h1 class="font-['Plus_Jakarta_Sans'] font-bold tracking-wide text-xl text-[#20667f]">山登り習慣</h1>
+</div>
+<div class="bg-tertiary-container/20 px-4 py-1.5 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-sm" data-weight="fill" style="font-variation-settings: 'FILL' 1;">nutrition</span>
+<span class="text-tertiary font-bold text-sm tracking-tight">520m | 🍱 3</span>
+</div>
+</header>
+<main class="pt-24 px-6 max-w-2xl mx-auto">
+<!-- Section Header -->
+<div class="mb-8">
+<h2 class="text-headline-md font-extrabold text-primary mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="volunteer_activism">volunteer_activism</span>
+                助け合いの広場
+            </h2>
+<p class="text-on-surface-variant text-sm tracking-wide">山を登る仲間たちが、あなたの温かい支援を待っています。</p>
+</div>
+<!-- Personal Status Bento Grid Section -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+<div class="bg-surface-container-low p-6 rounded-lg flex flex-col justify-center relative overflow-hidden group">
+<div class="relative z-10">
+<p class="text-label-md uppercase tracking-widest text-on-surface-variant mb-1">現在の食料残量</p>
+<div class="flex items-baseline gap-2">
+<span class="text-5xl font-extrabold text-primary">03</span>
+<span class="text-lg font-bold text-on-surface-variant">rations</span>
+</div>
+</div>
+<div class="absolute -right-4 -bottom-4 opacity-10 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-9xl" data-icon="lunch_dining">lunch_dining</span>
+</div>
+</div>
+<div class="bg-gradient-to-br from-secondary-container/50 to-primary-container/30 p-6 rounded-lg flex flex-col justify-center">
+<p class="text-label-md uppercase tracking-widest text-on-secondary-container mb-1">貢献レベル</p>
+<div class="flex items-center gap-3">
+<div class="p-2 bg-white/50 rounded-full">
+<span class="material-symbols-outlined text-secondary" data-icon="auto_awesome">auto_awesome</span>
+</div>
+<div>
+<p class="font-bold text-on-secondary-container">山の守護者 Lv.4</p>
+<p class="text-xs text-on-secondary-container/70">次のランクまであと12エナジー</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Help Request Card -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm p-1 mb-6">
+<div class="p-6">
+<div class="flex justify-between items-start mb-6">
+<div class="flex items-center gap-4">
+<div class="relative">
+<img class="w-16 h-16 rounded-full object-cover" data-alt="portrait of a young female hiker with a determined and friendly expression, outdoor natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvUfF3F_azliKFn03OI_dA7P1HDpqqnKmNepWNB3_JaERalvWFE7rkluZsIr71BRd9aIr0VHyCFNLJp67bpeOgOJlqkcjGXpugZntSdcopOOOek3R_6cfBNztXc0GQEyF5IUsXPHsPPclfe8fIcamUkYdCCOXURS8MLovE8nDmab0KPoWovgugh4qilJJzIwX8XWGEw7rVkZP4HaRZROoSKolP0YdOUGZQTXhKmTukEmFi_Jp8F7dIl8-c-A61D9qmkX_zg6LooZU-"/>
+<div class="absolute -bottom-1 -right-1 bg-error rounded-full p-1 border-2 border-white">
+<span class="material-symbols-outlined text-[12px] text-white" data-icon="warning">warning</span>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold text-on-surface">マキ</h3>
+<p class="text-error font-medium text-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-sm" data-icon="location_on">location_on</span>
+                                崖っぷちでつまずき中
+                            </p>
+</div>
+</div>
+<div class="bg-tertiary-container/30 px-3 py-2 rounded-xl text-center">
+<p class="text-[10px] text-tertiary font-bold uppercase tracking-tighter">必要食料</p>
+<p class="text-lg font-black text-tertiary">2</p>
+</div>
+</div>
+<div class="bg-surface-container-low p-4 rounded-md mb-8 italic text-on-surface-variant relative">
+<span class="material-symbols-outlined absolute -top-3 -left-1 text-primary-container opacity-50 text-4xl" data-icon="format_quote">format_quote</span>
+                    「あと少しで頂上なのですが、体力が切れてしまいました。どなたか食料を分けていただけませんか…？」
+                </div>
+<!-- Slider Interaction Area -->
+<div class="space-y-6">
+<div class="flex justify-between items-center mb-2">
+<span class="text-label-md font-bold text-on-surface-variant">分ける食料を選択</span>
+<div class="flex items-center gap-1 text-primary">
+<span class="text-2xl font-black">2</span>
+<span class="text-sm font-bold">rations</span>
+</div>
+</div>
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" max="3" min="0" step="1" type="range" value="2"/>
+<div class="flex justify-between text-[10px] text-outline font-bold px-1">
+<span>0</span>
+<span>1</span>
+<span>2</span>
+<span>3 (MAX)</span>
+</div>
+</div>
+</div>
+<!-- Preview Card (Appears after interaction logic) -->
+<div class="mt-2 bg-secondary-container/20 mx-4 mb-4 p-4 rounded-md flex items-center gap-4 border border-secondary-container/30">
+<div class="p-2 bg-white rounded-full shadow-sm">
+<span class="material-symbols-outlined text-secondary" data-icon="celebration">celebration</span>
+</div>
+<div>
+<p class="text-sm font-bold text-on-secondary-container">プレビュー</p>
+<p class="text-on-secondary-container text-xs">食料を届けると、マキが立ち上がります！</p>
+</div>
+</div>
+<div class="p-4 pt-0">
+<button class="w-full py-4 bg-gradient-to-r from-primary to-primary-container text-white font-bold rounded-full shadow-lg shadow-primary/20 active:scale-95 transition-transform flex items-center justify-center gap-2">
+<span class="material-symbols-outlined" data-icon="send">send</span>
+                    食料を届けて助ける
+                </button>
+</div>
+</div>
+<!-- History/Activity Mini Section -->
+<div class="mt-12 opacity-60">
+<h4 class="text-sm font-bold text-on-surface-variant mb-4 px-2 uppercase tracking-widest">最近の助け合い</h4>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 bg-white/50 rounded-md">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest"></div>
+<span class="text-xs font-medium">サトシさんが「水」をシェアしました</span>
+</div>
+<span class="text-[10px] text-outline">2分前</span>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-end px-4 pb-6 pt-2 bg-[#f6fafe]/80 backdrop-blur-2xl z-50 shadow-[0_-4px_20px_rgba(42,52,57,0.04)]">
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="landscape">landscape</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">みんなの山</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="edit_note">edit_note</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">記録</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-gradient-to-br from-[#20667f] to-[#9eddfa] text-white rounded-full p-3 w-14 h-14 -mt-4 shadow-lg active:scale-90 duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" data-icon="volunteer_activism">volunteer_activism</span>
+<span class="text-[8px] font-bold uppercase mt-0.5">HELP</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="group">group</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">仲間</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="person">person</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">マイページ</span>
+</a>
+</nav>
+</body></html>
+
+
+<!-- みんなの山：静かな旅路 -->
+<!DOCTYPE html>
+
+
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-dim": "#235e3d",
+              "primary-fixed": "#9eddfa",
+              "tertiary": "#914d00",
+              "primary-fixed-dim": "#90cfeb",
+              "background": "#f6fafe",
+              "on-tertiary-container": "#562c00",
+              "on-primary-container": "#005066",
+              "on-background": "#2a3439",
+              "error": "#ac3434",
+              "secondary-fixed": "#b8f7ca",
+              "primary": "#20667f",
+              "surface": "#f6fafe",
+              "inverse-surface": "#0a0f12",
+              "inverse-primary": "#9eddfa",
+              "on-tertiary-fixed": "#361900",
+              "on-secondary": "#e7ffeb",
+              "on-primary-fixed": "#003b4d",
+              "tertiary-container": "#ffa454",
+              "tertiary-fixed-dim": "#ef9648",
+              "tertiary-dim": "#804300",
+              "surface-dim": "#d0dce4",
+              "on-secondary-fixed-variant": "#306a48",
+              "on-error-container": "#65000b",
+              "secondary-container": "#b8f7ca",
+              "surface-container": "#e8eff4",
+              "primary-dim": "#0a5a72",
+              "surface-container-low": "#eff4f9",
+              "secondary-fixed-dim": "#aae8bd",
+              "outline": "#727c82",
+              "on-primary-fixed-variant": "#085a72",
+              "outline-variant": "#a9b3ba",
+              "on-tertiary-fixed-variant": "#633300",
+              "tertiary-fixed": "#ffa454",
+              "on-error": "#fff7f6",
+              "on-tertiary": "#fff7f4",
+              "on-surface-variant": "#576067",
+              "on-primary": "#f2faff",
+              "surface-container-lowest": "#ffffff",
+              "primary-container": "#9eddfa",
+              "on-surface": "#2a3439",
+              "surface-variant": "#dae4eb",
+              "secondary": "#306a48",
+              "inverse-on-surface": "#999da1",
+              "surface-tint": "#20667f",
+              "on-secondary-container": "#25603e",
+              "error-dim": "#70030f",
+              "surface-container-high": "#e1e9f0",
+              "surface-bright": "#f6fafe",
+              "error-container": "#f56965",
+              "on-secondary-fixed": "#0e4d2d",
+              "surface-container-highest": "#dae4eb"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>body {
+    background-color: #f6fafe;
+    overflow: hidden;
+    font-family: "Plus Jakarta Sans", sans-serif
+    }
+.watercolor-texture {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDCOu2GxrI4osJC7zOEGxyw4KfljHAKC8_ZtLf2rc8Xq5wcGqQKH51CWoxlIqANQS-OhuYGPfK6Doc9vtCKgbcdPbhxtBK8w6-9Aog3f241NqVIQDjDovOXDKdpQjCOm-NvB5vOKbDTyabHVOpL8fd1S2aJjrnpUq7IqaEuBJ26TgSrHBKHK3-oBcghtbsryEKqkUn6JfwtfV6QSeHrtAxidbSEeC1PxOdg1yZbjhiM9D38jEeztzZ-CWQdlrO6yv7PZL3MB5AXDIGY);
+    mix-blend-mode: multiply;
+    pointer-events: none
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.ethereal-blur {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px)
+    }
+.slope-path {
+    clip-path: polygon(0 85%, 100% 15%, 100% 100%, 0% 100%)
+    }</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-on-surface">
+<!-- Game Canvas Layer -->
+<div class="fixed inset-0 z-0 overflow-hidden bg-gradient-to-b from-primary-fixed/20 to-surface">
+<!-- Background Forest & Mist -->
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-30 mix-blend-luminosity" data-alt="Dreamy watercolor illustration of a misty Nordic forest with tall soft-edged pine trees and gentle morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP64ASUQfdyFyNJrKfXaCMEtxizplhtb_o3dZcEUVLO6HriDD6-IL5BkokJpVG3yaApr44AzrEyPuaLWy4BVVK6TwZXNfdideThHnqZP3g6i4AwFCHJ1F_KThh6hgaB1DPh4yLFZ7GtfqP4QqeOfDQdLDpv82Ne85vxAvMOAoWYsISHiQFObZ05544bvOMCIalM7-32VCZENVfhtUSyRtj3X78HZy1NH7cXM0xHP13V_9R58EAKmYU4AuWz4zWlaRMXxiT1j22bHbe"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
+</div>
+<!-- The Winding Path (Stylized Slope) -->
+<div class="absolute bottom-0 left-0 w-full h-2/3 slope-path bg-secondary-container/40 z-10">
+<!-- Watercolor overlay on path -->
+<div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
+</div>
+<!-- Character Party -->
+<div class="absolute inset-0 z-20 pointer-events-none">
+<!-- Friend 1 (Ahead) -->
+<div class="absolute left-[75%] top-[25%] flex flex-col items-center">
+<img class="w-16 h-16 object-contain rounded-full shadow-lg" data-alt="Hand-drawn whimsical illustration of a student traveler with a tiny backpack walking uphill, soft watercolor style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGAe6L89m7fljKN8pmbnRrsSUMBLb7T_-2BFD2BDMdfAtdZzcOG0WV4R0IjVpnWA2igVaX5gSSsUgjj2l1Y5PKtt_AjsfPH2e8edaUe5nF4oYnpJojjq-iA6ZZpl7Bi8jUaiJYuhlQpK-OsdcAiQWBQ-2pozEc1UTym0cNCMifeRTlMIvDwGZij2tmPoko6xi01QA8KSs7-7YdK2sl3pE3Wu-kv-71iCDsWEFVGk7w9m9zIJ_6qzoPEnKgB7TuhTAGUyYcFlvQ52SR"/>
+<span class="mt-1 text-[10px] font-bold text-secondary-dim bg-white/40 px-2 rounded-full">ハナ</span>
+</div>
+<!-- Tired Friend (Stooped/Sitting) -->
+<div class="absolute left-[55%] top-[40%] flex flex-col items-center">
+<div class="relative">
+<!-- Speech Bubble -->
+<div class="absolute -top-12 -left-4 w-32 bg-white/80 ethereal-blur p-2 rounded-2xl shadow-sm border border-primary-fixed/30 text-[10px] text-on-surface text-center">
+                        ユウさんが少し疲れています
+                    </div>
+<img class="w-16 h-16 object-contain rounded-full shadow-lg grayscale-[0.3]" data-alt="Soft hand-drawn illustration of a hiker sitting on a rock looking tired, muted forest green and cream colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB9Io3oERCdSsLzowK2tDaYrbTbIxsLtm_vGO81py4SZhoRL5_ZOlIkJSY0wEJ9WZ6CAonzr2WuHVzdv9XPcfZYfu9lshpNFKQIfU3x03AxVHXzSFXav8jxegiQWSTaL-zKjQTOjv_iZyYx7BBd7Olo-c9p7XB_vaAQ_2YgTn4dghxujFbvmtJuvsWxH5O0ZuYtLUQAiJJQFFh0ND83ZnjUZrZlrPt8ce7Wfv0worGwK3vbbKIfOu2UveKGcOMt8347IaPLc6u2--K"/>
+</div>
+<span class="mt-1 text-[10px] font-bold text-secondary-dim bg-white/40 px-2 rounded-full">ユウ</span>
+</div>
+<!-- Player Character (Slightly below center) -->
+<div class="absolute left-[35%] top-[55%] flex flex-col items-center">
+<div class="relative">
+<!-- Active marker -->
+<div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-8 h-2 bg-primary/20 blur-md rounded-full"></div>
+<img class="w-20 h-20 object-contain rounded-full border-2 border-white/50 shadow-xl" data-alt="A small hand-drawn character sprite of a traveler with a hat and hiking gear, storybook watercolor aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApFkFxdXmojEZA44lEoc428rgJzA_BRcFw8Il6nVDhVw_1jrIIGbdgr7VvNmZ6KbHmZ1uTMOIrH7gmA-HkYJSCUa7rIpVnHuGnF_1u-qTTH6bT65nt-cFOr7O0sj5jDjJpz69wOBVfhfSq34APskXQmfGVAqZtxgmY6fNfCAdsXrWIrJN9o4LJnYx_Dm_DpUwhttYppHpLCjqCEj6tsmPg4WdSX2VjQ_DdHPJ1hv08auvDln3ctgHLENCBzMBZDMYXxrntfPBTDVBA"/>
+</div>
+<span class="mt-1 text-xs font-extrabold text-primary bg-primary-fixed/40 px-3 py-0.5 rounded-full">あなた</span>
+</div>
+<!-- Friend 2 (Behind) -->
+<div class="absolute left-[15%] top-[70%] flex flex-col items-center">
+<img class="w-16 h-16 object-contain rounded-full shadow-lg" data-alt="Hand-drawn whimsical character of a student in a yellow raincoat walking uphill, soft pencil and wash style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCX-Oh7Zkck1CtMEArmWlNAoJRm9izGwTdSR8IpZe3NQQOwvE3us0HVDXlLtRMW8M5P-xnqUVkzf-r_LlhUVI8H6dLW0ynNcTtv1Y2BK54bOalMvoVgOujw15ordAw32WlUStkNLDNdouXcYkPC7YcwxPHKtm78uv69Fl9j4iI68xpakHiXgK3ir9nnxwiWmQat7jWwUVCPmJQ3ErTnUZ4lsEN8RV3zX4Q9FjC0mBZfMapQgd488H5fLs9Cq-dRQU_rEcdyMBG8Tkpo"/>
+<span class="mt-1 text-[10px] font-bold text-secondary-dim bg-white/40 px-2 rounded-full">ケン</span>
+</div>
+</div>
+</div>
+<!-- UI Layer: TopAppBar HUD -->
+<header class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center max-w-lg mx-auto rounded-full mt-4 mx-4 px-2 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:shadow-none h-14">
+<div class="flex items-center gap-3 pl-2">
+<div class="w-8 h-8 rounded-full overflow-hidden border border-primary-fixed">
+<img class="w-full h-full object-cover" data-alt="Celestial traveler character sprite avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAimr4OrLUPh_cmmS1UNMNTzC2PLEBIR7_fcrUwnepo6rWe-d2dVJqTXF2ftTdiSaj78-xsa5XZT3-psUIzabswcegbXmziW9Aj5mze3jSVqhXcbH_feUS_-fDfXg3v50ad4crqXHA3YOc7lq1LNDOgSOa-xcqYte8oi_A6S88E7IhHgW61F4-bOQuDiibz6vSX5-J9txa7ZBVivobChl9RwZRj94X8kPt4Wme1m7QUZfvn-7UBfPi0T-qlqof1OlvwsPxJvasAqoxe"/>
+</div>
+<div class="flex flex-col">
+<span class="text-[10px] font-bold tracking-widest text-sky-700 uppercase leading-none">今日の一歩</span>
+<span class="text-xs font-bold text-sky-900 leading-tight">+100m</span>
+</div>
+</div>
+<div class="flex items-center gap-4 pr-3">
+<div class="flex items-center gap-1.5 bg-tertiary-container/20 px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-tertiary text-lg" data-icon="bakery_dining">bakery_dining</span>
+<span class="text-xs font-bold text-on-tertiary-container">食料 3</span>
+</div>
+<button class="w-8 h-8 flex items-center justify-center text-slate-400 hover:bg-sky-50/50 transition-colors rounded-full">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+</div>
+</header>
+<!-- UI Layer: Bottom Interface -->
+<nav class="fixed bottom-0 left-0 right-0 z-50 flex justify-center items-center gap-4 pb-safe bg-transparent pointer-events-none">
+<div class="rounded-full mb-8 mx-auto w-fit px-6 py-3 bg-white/70 dark:bg-slate-900/70 backdrop-blur-2xl shadow-[0_20px_50px_rgba(116,179,206,0.15)] flex gap-4 pointer-events-auto">
+<!-- Inactive/Inactive but showing standard layout -->
+<div class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 p-3 hover:scale-110 transition-transform duration-300 cursor-pointer">
+<span class="material-symbols-outlined mb-1" data-icon="bakery_dining">bakery_dining</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">食料</span>
+</div>
+<!-- Record (Active mapping for this screen's primary focus) -->
+<div class="flex flex-col items-center justify-center bg-sky-100/50 dark:bg-sky-900/50 text-sky-800 dark:text-sky-200 rounded-full p-3 px-6 hover:scale-110 transition-transform duration-300 cursor-pointer">
+<span class="material-symbols-outlined mb-1" data-icon="edit_note" style="font-variation-settings: 'FILL' 1;">edit_note</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold tracking-tighter">記録する</span>
+</div>
+<!-- Help Button (Contextual for the tired friend) -->
+<div class="flex flex-col items-center justify-center text-orange-600 dark:text-orange-400 p-3 hover:scale-110 transition-transform duration-300 cursor-pointer">
+<span class="material-symbols-outlined mb-1" data-icon="volunteer_activism">volunteer_activism</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-medium tracking-tighter">助ける</span>
+</div>
+</div>
+</nav>
+<!-- Watercolor Texture Overlay (Global) -->
+<div class="fixed inset-0 pointer-events-none watercolor-texture z-[100] opacity-40"></div>
+</body></html>
+
+
+<!-- 登山仲間：一緒に歩む友ら -->
+<!DOCTYPE html>
+
+
+<html class="light" lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#aae8bd",
+              "inverse-primary": "#9eddfa",
+              "surface": "#f6fafe",
+              "surface-bright": "#f6fafe",
+              "tertiary-dim": "#804300",
+              "on-primary": "#f2faff",
+              "secondary-dim": "#235e3d",
+              "primary": "#20667f",
+              "on-tertiary": "#fff7f4",
+              "error-dim": "#70030f",
+              "on-tertiary-container": "#562c00",
+              "surface-tint": "#20667f",
+              "surface-container-lowest": "#ffffff",
+              "secondary-container": "#b8f7ca",
+              "error-container": "#f56965",
+              "on-error": "#fff7f6",
+              "on-error-container": "#65000b",
+              "on-primary-fixed": "#003b4d",
+              "on-secondary-container": "#25603e",
+              "on-tertiary-fixed-variant": "#633300",
+              "on-secondary-fixed": "#0e4d2d",
+              "primary-fixed-dim": "#90cfeb",
+              "outline-variant": "#a9b3ba",
+              "error": "#ac3434",
+              "surface-container-highest": "#dae4eb",
+              "secondary": "#306a48",
+              "on-surface-variant": "#576067",
+              "primary-dim": "#0a5a72",
+              "on-secondary-fixed-variant": "#306a48",
+              "on-primary-container": "#005066",
+              "tertiary-container": "#ffa454",
+              "tertiary": "#914d00",
+              "surface-container-high": "#e1e9f0",
+              "on-background": "#2a3439",
+              "on-secondary": "#e7ffeb",
+              "inverse-surface": "#0a0f12",
+              "surface-dim": "#d0dce4",
+              "tertiary-fixed-dim": "#ef9648",
+              "inverse-on-surface": "#999da1",
+              "secondary-fixed": "#b8f7ca",
+              "on-primary-fixed-variant": "#085a72",
+              "surface-container-low": "#eff4f9",
+              "tertiary-fixed": "#ffa454",
+              "background": "#f6fafe",
+              "surface-variant": "#dae4eb",
+              "surface-container": "#e8eff4",
+              "on-surface": "#2a3439",
+              "outline": "#727c82",
+              "on-tertiary-fixed": "#361900",
+              "primary-fixed": "#9eddfa",
+              "primary-container": "#9eddfa"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        backdrop-filter: blur(24px);
+      }
+      .winding-path {
+        background-image: radial-gradient(circle at 2px 2px, #90cfeb 1px, transparent 0);
+        background-size: 24px 24px;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#f6fafe]/70 dark:bg-[#0f172a]/70 backdrop-blur-xl shadow-sm shadow-[#2a3439]/5 flex justify-between items-center px-6 h-16 w-full">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#20667f] dark:text-[#9eddfa]" data-icon="terrain">terrain</span>
+<h1 class="font-['Plus_Jakarta_Sans'] font-bold tracking-wide text-xl text-[#20667f] dark:text-[#9eddfa]">山登り習慣</h1>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2">
+<span class="text-sm font-bold text-[#20667f]">520m | 🍙 3</span>
+</div>
+</header>
+<main class="pt-20 pb-32 px-4 max-w-5xl mx-auto flex flex-col md:flex-row gap-8">
+<!-- Left Column: The Ascent Path (Vertical Map) -->
+<aside class="w-full md:w-1/3 order-2 md:order-1">
+<div class="bg-surface-container-low rounded-lg p-8 relative min-h-[600px] overflow-hidden">
+<h2 class="text-label-md font-bold tracking-widest text-on-surface-variant uppercase mb-8">Ascent Progress</h2>
+<!-- The Winding Path Visual -->
+<div class="absolute left-1/2 -translate-x-1/2 top-24 bottom-12 w-1.5 bg-primary-fixed-dim rounded-full">
+<!-- Path Nodes -->
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-4 h-4 bg-primary rounded-full ring-4 ring-primary-container"></div>
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-4 h-4 bg-primary-fixed-dim rounded-full border-2 border-surface"></div>
+<div class="absolute top-2/4 left-1/2 -translate-x-1/2 w-4 h-4 bg-primary-fixed-dim rounded-full border-2 border-surface"></div>
+<div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-4 h-4 bg-surface-container-highest rounded-full border-2 border-surface"></div>
+</div>
+<!-- Member Markers on Path -->
+<div class="relative flex flex-col gap-24 mt-4">
+<!-- Member 1 (Highest) -->
+<div class="flex items-center justify-start gap-4 ml-[-1rem] z-10">
+<div class="w-12 h-12 rounded-full border-2 border-primary overflow-hidden shadow-lg bg-white">
+<img alt="User Avatar" class="w-full h-full object-cover" data-alt="Portrait of a smiling young man wearing a professional hiking hat and outdoor gear with mountains in the background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCARqp6IJK6I8E1BjEPlnkZvkZijfl2XJFaZV9Tx_fchkDFswDuwE1iRCNuFg-Bm3mkAcetchDumizeJhWcAndQM400tJAwopwXxu85NqBOJhgukNO2V0XB6AIkDM262h5KouUA_NWcfxafYmXI24B7LEBmv6LX9wzslCOOHvIkU7S4uZem9mr8m871r-0D1W1n-pD9nUsdKGrHR0SAeKOq2glWddQkxSRG6Ffzinsv9LGeZ-QPC64UsMuw8izX-9wC7B8GtBHkgY-s"/>
+</div>
+<div class="bg-surface-container-lowest py-1 px-3 rounded-full shadow-sm">
+<p class="text-xs font-bold">レオ</p>
+<p class="text-[10px] text-primary">850m (頂上付近)</p>
+</div>
+</div>
+<!-- Member 2 -->
+<div class="flex items-center justify-end gap-4 mr-[-1rem] z-10">
+<div class="bg-surface-container-lowest py-1 px-3 rounded-full shadow-sm text-right">
+<p class="text-xs font-bold">サキ</p>
+<p class="text-[10px] text-primary">520m (現在地)</p>
+</div>
+<div class="w-12 h-12 rounded-full border-2 border-primary-container overflow-hidden shadow-lg bg-white">
+<img alt="User Avatar" class="w-full h-full object-cover" data-alt="Profile photo of a cheerful young woman with a bob haircut wearing activewear in a sunlit natural setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdGFRMwNW8n-uw4KlnKDX14fGk1yaYQTGii86ua8o835B2aee2lqxoxCpLaIl7AIjpaoi0LXGV2MtmTd5asiDydoI1OpReOS-dr5olEkkM86RZudepy5buXP8CCbtoX7jFsBo8rxvrNQGFyMEMGU5mLwORKXlIauMHJMcTfZ0yUbly7A_UyuJAfP1xazzqDl6cS_D1ufzN1u42bIPeG-pkoZwq5aYXmsSjATj1CV2LkxOqcD3opGBAK0_Qx-b8JB0wRPYzducVJdEw"/>
+</div>
+</div>
+<!-- Member 3 -->
+<div class="flex items-center justify-start gap-4 ml-[-1rem] z-10">
+<div class="w-12 h-12 rounded-full border-2 border-primary-fixed-dim overflow-hidden shadow-lg bg-white">
+<img alt="User Avatar" class="w-full h-full object-cover" data-alt="Close-up of a rugged middle-aged man with a beard and a reflective look, soft morning light hitting his face" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYhuRMaOS4wZAhCp4DNTF9dj3AspmM4okV5tQ_8jEleaVeoPaLuALriSM9-RPGOmhgnI9vy78r9A30NIXlw86HonwWJVQqSiHQuaInVLYjmR6X3ew3hgruw4LuQl5BkWFlSGhSPSNVMKCdYoXKP-G10JmloAbBtmXeyKU7ZuLVVnmk2iW__gfFdCeiYPht-YzoQm8kBsX_usoSmgBCVRDI9AUkeJZlt1rTV2-0ORu0mqsuqQ_Rb0Byk7CYsF0Fv-tmXS5nK1tD0WMT"/>
+</div>
+<div class="bg-surface-container-lowest py-1 px-3 rounded-full shadow-sm">
+<p class="text-xs font-bold">ケンタ</p>
+<p class="text-[10px] text-primary">310m (休憩中)</p>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<!-- Right Column: Party Cards -->
+<div class="w-full md:w-2/3 order-1 md:order-2 flex flex-col gap-6">
+<header class="mb-2">
+<h2 class="text-headline-md font-bold text-primary mb-1">パーティー「朝霧の旅路」</h2>
+<p class="text-on-surface-variant body-lg">同じ山を登る4人の仲間たち。助け合い、高みを目指しましょう。</p>
+</header>
+<!-- Party Member Bento Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Member Card 1: Leo -->
+<div class="bg-surface-container-lowest rounded-lg p-6 flex flex-col gap-4 shadow-[0_4px_20px_rgba(42,52,57,0.04)] relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-bl-full"></div>
+<div class="flex items-center gap-4">
+<img alt="Leo" class="w-16 h-16 rounded-full border-2 border-secondary-container p-0.5" data-alt="Hiking enthusiast with a bright smile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuGTLbMzCTEgH5XkHeVFaWUVmZr-PSN480BuH8VJEb71DUTrSbPJXH5iyJOZyrsL355VdGvsIoRpVeAVNpuTnKtjkaWghhLHkiSVBDcmxXXelzTlnqmcYn3bYTFvrRHhGhjv3BZlDtcbKHs8CwiftxpN4aSzGLy28J2x0MkLqAi_UJU0WOqTbmCtYclPmkukPtuo2Z_c47wAFkkgGE3-xnSYNXq8lBLk0uzFbT3QhhTnKLysQ5njU8PmuLfBKSzh1KX_eYhcVXonGr"/>
+<div>
+<h3 class="font-bold text-lg">レオ</h3>
+<span class="text-[10px] font-medium px-2 py-0.5 bg-secondary-container text-on-secondary-container rounded-full uppercase tracking-tighter">Leader</span>
+</div>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between text-sm">
+<span class="text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined text-sm" data-icon="moving">moving</span> 進捗</span>
+<span class="font-bold">85%</span>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-primary to-primary-container h-full w-[85%]"></div>
+</div>
+<div class="flex gap-4">
+<div class="flex-1 bg-tertiary-container/20 p-2 rounded-md">
+<p class="text-[10px] text-tertiary-dim font-bold">食料</p>
+<p class="text-sm font-bold">🍙 8個</p>
+</div>
+<div class="flex-1 bg-secondary-container/20 p-2 rounded-md">
+<p class="text-[10px] text-secondary-dim font-bold">最近の支援</p>
+<p class="text-sm font-bold truncate">水をシェア</p>
+</div>
+</div>
+</div>
+<button class="mt-2 w-full py-3 bg-surface-container-low hover:bg-surface-container-high transition-colors rounded-full flex items-center justify-center gap-2 group active:scale-95 duration-200">
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform" data-icon="favorite" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="text-sm font-bold text-primary">応援する</span>
+</button>
+</div>
+<!-- Member Card 2: Kenta -->
+<div class="bg-surface-container-lowest rounded-lg p-6 flex flex-col gap-4 shadow-[0_4px_20px_rgba(42,52,57,0.04)] relative overflow-hidden">
+<div class="flex items-center gap-4">
+<img alt="Kenta" class="w-16 h-16 rounded-full border-2 border-surface-container-highest p-0.5" data-alt="Mature man in outdoor hiking clothes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6JDkD_TFydHP95nYbTlYB1pHozoRusCBlikWRWjPRI86loSVQZ2IeQA-IBsEWxRWaYCIinnNWd8jaLSCZ9tkIYq6cEAwGe8JknJY_oBkPKn6SVBTZg9fQOYJHmlw4_kxrFo8tnqR1Fyziy8Fp6nfSwFGX4QbQgj7wIFSorpCN658hfjclpPbLGlRIlidvd8MeF0OT1c15WddkT_q2c2bVxk8yUU0a250lr5enxr4AybTaHo2_5toRIf1AjQEh-EHpEAaazHXbaRJd"/>
+<div>
+<h3 class="font-bold text-lg">ケンタ</h3>
+<span class="text-[10px] font-medium px-2 py-0.5 bg-surface-container-highest text-on-surface-variant rounded-full tracking-tighter">Support</span>
+</div>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between text-sm">
+<span class="text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined text-sm" data-icon="moving">moving</span> 進捗</span>
+<span class="font-bold">32%</span>
+</div>
+<div class="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary-fixed-dim h-full w-[32%]"></div>
+</div>
+<div class="flex gap-4">
+<div class="flex-1 bg-tertiary-container/20 p-2 rounded-md">
+<p class="text-[10px] text-tertiary-dim font-bold">食料</p>
+<p class="text-sm font-bold">🍙 2個</p>
+</div>
+<div class="flex-1 bg-secondary-container/20 p-2 rounded-md">
+<p class="text-[10px] text-secondary-dim font-bold">最近の支援</p>
+<p class="text-sm font-bold truncate">レオを助けました</p>
+</div>
+</div>
+</div>
+<div class="flex gap-2 mt-2">
+<button class="flex-1 py-3 bg-surface-container-low rounded-full flex items-center justify-center text-primary active:scale-95 transition-transform"><span class="material-symbols-outlined" data-icon="celebration">celebration</span></button>
+<button class="flex-1 py-3 bg-surface-container-low rounded-full flex items-center justify-center text-primary active:scale-95 transition-transform"><span class="material-symbols-outlined" data-icon="thumb_up">thumb_up</span></button>
+<button class="flex-1 py-3 bg-surface-container-low rounded-full flex items-center justify-center text-primary active:scale-95 transition-transform"><span class="material-symbols-outlined" data-icon="stars">stars</span></button>
+</div>
+</div>
+<!-- Member Card 3: You (Saki) -->
+<div class="bg-primary/5 rounded-lg p-6 flex flex-col gap-4 border-2 border-primary shadow-lg relative sm:col-span-2">
+<div class="absolute top-4 right-4 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full">あなた</div>
+<div class="flex items-center gap-4">
+<img alt="Saki" class="w-20 h-20 rounded-full border-4 border-white shadow-md" data-alt="Portrait of Saki smiling brightly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKpBO_T2WhAGEa0etI2UQySR_9on7tgpVC49Cvxl2konFGHcOft5x_VJGUEcUuTuryUXX8_gvsjmacx06LywsQfLtB788Qw0nLig7rag_rBVZF8TefEJecNGrfiWEitaxet9fjToUDzluaC6CPp52KNVusshlOdj0jrzU8MJfa-vGzcg0WkdAS-z3sQyy-pZOlNczo6qs7ZZzR3HUJ6Wl3fPoKD9G3YvF4gZ9p1sN2XFDKFMLhiiSmmmidsOzdm3amZpO_GFuLeN4r"/>
+<div>
+<h3 class="font-bold text-xl">サキ (自分)</h3>
+<p class="text-sm text-on-surface-variant">「今日はいいペース。頑張ろう！」</p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-2">
+<div class="bg-white/50 p-4 rounded-xl">
+<p class="text-xs font-bold text-primary mb-1">現在の高度</p>
+<p class="text-2xl font-black text-primary">520<span class="text-xs font-medium ml-1">m</span></p>
+</div>
+<div class="bg-white/50 p-4 rounded-xl">
+<p class="text-xs font-bold text-tertiary mb-1">残りの食料</p>
+<p class="text-2xl font-black text-tertiary">3<span class="text-xs font-medium ml-1">rations</span></p>
+</div>
+<div class="bg-white/50 p-4 rounded-xl">
+<p class="text-xs font-bold text-secondary mb-1">獲得ポイント</p>
+<p class="text-2xl font-black text-secondary">1,240<span class="text-xs font-medium ml-1">pt</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-end px-4 pb-6 pt-2 bg-[#f6fafe]/80 dark:bg-[#0f172a]/80 backdrop-blur-2xl shadow-[0_-4px_20px_rgba(42,52,57,0.04)] z-50">
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 dark:text-[#f6fafe]/50 p-2 hover:text-[#20667f] dark:hover:text-[#9eddfa] transition-all active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="landscape">landscape</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">みんなの山</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 dark:text-[#f6fafe]/50 p-2 hover:text-[#20667f] dark:hover:text-[#9eddfa] transition-all active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="edit_note">edit_note</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">記録</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 dark:text-[#f6fafe]/50 p-2 hover:text-[#20667f] dark:hover:text-[#9eddfa] transition-all active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="volunteer_activism">volunteer_activism</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">助け合い</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-gradient-to-br from-[#20667f] to-[#9eddfa] text-white rounded-full p-3 w-14 h-14 -mt-4 shadow-lg active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="group" style="font-variation-settings: 'FILL' 1;">group</span>
+<span class="text-[10px] font-bold tracking-widest font-['Plus_Jakarta_Sans']">仲間</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 dark:text-[#f6fafe]/50 p-2 hover:text-[#20667f] dark:hover:text-[#9eddfa] transition-all active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans']">マイページ</span>
+</a>
+</nav>
+</body></html>
+
+
+<!-- マイページ：自分の軌跡 -->
+<!DOCTYPE html>
+
+
+<html class="light" lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#aae8bd",
+              "inverse-primary": "#9eddfa",
+              "surface": "#f6fafe",
+              "surface-bright": "#f6fafe",
+              "tertiary-dim": "#804300",
+              "on-primary": "#f2faff",
+              "secondary-dim": "#235e3d",
+              "primary": "#20667f",
+              "on-tertiary": "#fff7f4",
+              "error-dim": "#70030f",
+              "on-tertiary-container": "#562c00",
+              "surface-tint": "#20667f",
+              "surface-container-lowest": "#ffffff",
+              "secondary-container": "#b8f7ca",
+              "error-container": "#f56965",
+              "on-error": "#fff7f6",
+              "on-error-container": "#65000b",
+              "on-primary-fixed": "#003b4d",
+              "on-secondary-container": "#25603e",
+              "on-tertiary-fixed-variant": "#633300",
+              "on-secondary-fixed": "#0e4d2d",
+              "primary-fixed-dim": "#90cfeb",
+              "outline-variant": "#a9b3ba",
+              "error": "#ac3434",
+              "surface-container-highest": "#dae4eb",
+              "secondary": "#306a48",
+              "on-surface-variant": "#576067",
+              "primary-dim": "#0a5a72",
+              "on-secondary-fixed-variant": "#306a48",
+              "on-primary-container": "#005066",
+              "tertiary-container": "#ffa454",
+              "tertiary": "#914d00",
+              "surface-container-high": "#e1e9f0",
+              "on-background": "#2a3439",
+              "on-secondary": "#e7ffeb",
+              "inverse-surface": "#0a0f12",
+              "surface-dim": "#d0dce4",
+              "tertiary-fixed-dim": "#ef9648",
+              "inverse-on-surface": "#999da1",
+              "secondary-fixed": "#b8f7ca",
+              "on-primary-fixed-variant": "#085a72",
+              "surface-container-low": "#eff4f9",
+              "tertiary-fixed": "#ffa454",
+              "background": "#f6fafe",
+              "surface-variant": "#dae4eb",
+              "surface-container": "#e8eff4",
+              "on-surface": "#2a3439",
+              "outline": "#727c82",
+              "on-tertiary-fixed": "#361900",
+              "primary-fixed": "#9eddfa",
+              "primary-container": "#9eddfa"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .shadow-inner-white {
+        box-shadow: inset 0 2px 4px 0 rgba(255, 255, 255, 0.3);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#f6fafe]/70 backdrop-blur-xl shadow-sm shadow-[#2a3439]/5 flex justify-between items-center px-6 h-16 w-full">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#20667f]" style="font-variation-settings: 'FILL' 1;">terrain</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold tracking-wide text-xl text-[#20667f]">山登り習慣</span>
+</div>
+<div class="flex items-center gap-3 bg-surface-container-low px-4 py-1.5 rounded-full">
+<span class="text-[#20667f] font-bold text-sm">520m | 🍙 3</span>
+</div>
+</header>
+<main class="pt-24 px-6 max-w-2xl mx-auto space-y-8">
+<!-- Profile Hero Section -->
+<section class="relative bg-gradient-to-br from-primary-container to-surface-container-low rounded-lg p-8 overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 opacity-10">
+<span class="material-symbols-outlined text-[8rem]" style="font-variation-settings: 'FILL' 1;">cloud</span>
+</div>
+<div class="flex flex-col md:flex-row items-center gap-6 relative z-10">
+<div class="relative">
+<div class="w-28 h-28 rounded-full border-4 border-surface-container-lowest overflow-hidden shadow-lg">
+<img class="w-full h-full object-cover" data-alt="portrait of a smiling young man in outdoors gear with mountains in the background, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2YLFGEsIXUlFpvyZbSqBRCNDE7OO95-Fef3EKn3rftSuSa-FfrJfdaRQP6qiscHiLjjIlwmNlCMC2Aa28UX2MefRZW9OhIK7ifzTSMN4xpWKivAN-pV_7acx3F-o064SW-H86iMtbtJzNaKukpLHlNIU7y2cjNPdKnYYMg-TG6j3W2i4lzb4bRjr_4o1VwVPiSpJUP3CGlOFvmEpUeqGPhVC1gFtfSjc71fo9WlDBZV4ZuUdMZ6PE8r6AkWxAuU1v8B1O4bghhtx-"/>
+</div>
+<div class="absolute -bottom-2 -right-2 bg-tertiary-container text-on-tertiary-container p-2 rounded-full shadow-md">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+</div>
+</div>
+<div class="text-center md:text-left">
+<div class="flex flex-col md:flex-row md:items-baseline gap-2">
+<h1 class="text-2xl font-extrabold tracking-tight text-on-primary-container">タカシ</h1>
+<span class="px-3 py-1 bg-primary text-on-primary text-xs font-bold rounded-full tracking-wider">熟練の登山者</span>
+</div>
+<p class="mt-2 text-on-surface-variant text-sm leading-relaxed max-w-xs">
+                        自然と一体になる瞬間が一番の幸せ。週末は必ずどこかの頂上にいます。
+                    </p>
+<!-- Visibility Toggle -->
+<div class="mt-4 flex items-center justify-center md:justify-start gap-3">
+<span class="text-xs font-semibold text-on-surface-variant">公開中</span>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-secondary"></div>
+</label>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Bento Grid -->
+<section class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-6 rounded-lg flex flex-col justify-between">
+<span class="material-symbols-outlined text-secondary mb-4" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
+<div>
+<span class="text-4xl font-extrabold text-on-surface leading-none">14</span>
+<span class="text-xs font-bold text-on-surface-variant ml-1">日</span>
+<p class="text-xs text-on-surface-variant mt-1 tracking-widest uppercase">継続日数</p>
+</div>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">altitude</span>
+<div>
+<span class="text-4xl font-extrabold text-on-surface leading-none">5,400</span>
+<span class="text-xs font-bold text-on-surface-variant ml-1">m</span>
+<p class="text-xs text-on-surface-variant mt-1 tracking-widest uppercase">総獲得高度</p>
+</div>
+</div>
+<div class="col-span-2 bg-secondary-container/30 p-6 rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="bg-secondary-container p-3 rounded-full">
+<span class="material-symbols-outlined text-on-secondary-container" style="font-variation-settings: 'FILL' 1;">volunteer_activism</span>
+</div>
+<div>
+<p class="text-sm font-bold text-on-secondary-container">助け合いスコア</p>
+<p class="text-xs text-on-secondary-container/80">あなたの優しさが山を支えています</p>
+</div>
+</div>
+<span class="text-2xl font-black text-on-secondary-container">LV. 8</span>
+</div>
+</section>
+<!-- Recent Logs Timeline -->
+<section class="space-y-6">
+<div class="flex items-center justify-between">
+<h2 class="text-lg font-extrabold text-[#20667f]">最近の山行ログ</h2>
+<button class="text-sm font-bold text-primary hover:underline">すべて見る</button>
+</div>
+<div class="relative space-y-6 before:absolute before:inset-0 before:ml-5 before:-translate-x-px before:h-full before:w-0.5 before:bg-gradient-to-b before:from-primary/20 before:to-transparent">
+<!-- Log Entry 1 -->
+<div class="relative pl-12">
+<div class="absolute left-0 top-1 w-10 h-10 bg-surface-container-lowest rounded-full border-2 border-primary flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-primary text-xl" style="font-variation-settings: 'FILL' 1;">landscape</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-lg shadow-sm">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-on-surface">雲取山・一泊縦走</h3>
+<span class="text-[10px] font-bold text-on-surface-variant tracking-wider">2日前</span>
+</div>
+<div class="flex flex-wrap gap-2 mb-3">
+<div class="flex items-center gap-1.5 bg-surface-container-low px-2 py-1 rounded-md">
+<span class="material-symbols-outlined text-[14px]">group</span>
+<span class="text-[11px] font-medium">ケンジ、サオリ</span>
+</div>
+<div class="flex items-center gap-1.5 bg-tertiary-container/20 px-2 py-1 rounded-md">
+<span class="material-symbols-outlined text-[14px] text-tertiary">volunteer_activism</span>
+<span class="text-[11px] font-medium text-tertiary">1名のルート案内を支援</span>
+</div>
+</div>
+<img class="w-full h-32 object-cover rounded-md mb-2" data-alt="dramatic mountain peaks touching clouds at dawn with cool blue tones and morning mist" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdLcQQDEuWpZ_a_0PtwYKJK0dY_h_wArMRkcwiZmB0JSVk5frfFGcPkQUt6MftBtsrjxVlo21o5z0hr9CrnaRKqdjsaPRs1awMQ_qshlLmpUci0hSOc97dth7nUkyec5KYeI948EQYQPkgjaQdmJ1ZcYxTNoORhfnV39XICrye8p0Dp-K67UJFdcLA0rhlj3Lg7012sc3aEWOb07__UjmMG8KST1eTd7xo-Dtg4Lkamq71jlg8xU1c6RFVDaWivoVIscy02HNPS4E_"/>
+</div>
+</div>
+<!-- Log Entry 2 -->
+<div class="relative pl-12">
+<div class="absolute left-0 top-1 w-10 h-10 bg-surface-container-lowest rounded-full border-2 border-secondary flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-secondary text-xl" style="font-variation-settings: 'FILL' 1;">forest</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-lg shadow-sm">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-on-surface">高尾山・早朝トレーニング</h3>
+<span class="text-[10px] font-bold text-on-surface-variant tracking-wider">5日前</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<div class="flex items-center gap-1.5 bg-surface-container-low px-2 py-1 rounded-md">
+<span class="material-symbols-outlined text-[14px]">person</span>
+<span class="text-[11px] font-medium">ソロ山行</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-end px-4 pb-6 pt-2 bg-[#f6fafe]/80 backdrop-blur-2xl z-50 shadow-[0_-4px_20px_rgba(42,52,57,0.04)]">
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined">landscape</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans'] mt-1">みんなの山</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined">edit_note</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans'] mt-1">記録</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined">volunteer_activism</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans'] mt-1">助け合い</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#2a3439]/50 p-2 hover:text-[#20667f] transition-all" href="#">
+<span class="material-symbols-outlined">group</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans'] mt-1">仲間</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-gradient-to-br from-[#20667f] to-[#9eddfa] text-white rounded-full p-3 w-14 h-14 -mt-4 shadow-lg active:scale-90 duration-300 ease-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="text-[10px] font-medium tracking-widest font-['Plus_Jakarta_Sans'] mt-1 hidden">マイページ</span>
+</a>
+</nav>
+</body></html>
